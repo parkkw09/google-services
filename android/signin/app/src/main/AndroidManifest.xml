@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.samples.quickstart.signin" >
+    package="com.google.samples.quickstart.signin2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,7 +11,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name="com.google.samples.quickstart.signin.ChooserActivity"
+            android:name="com.google.samples.quickstart.signin2.ChooserActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,29 +21,29 @@
         </activity>
 
         <activity
-            android:name="com.google.samples.quickstart.signin.SignInActivity"
+            android:name="com.google.samples.quickstart.signin2.SignInActivity"
             android:label="@string/name_sign_in_activity"
             android:theme="@style/ThemeOverlay.MyNoTitleActivity">
         </activity>
         <activity
-            android:name="com.google.samples.quickstart.signin.SignInActivityWithDrive"
+            android:name="com.google.samples.quickstart.signin2.SignInActivityWithDrive"
             android:label="@string/name_sign_in_activity"
             android:theme="@style/ThemeOverlay.MyNoTitleActivity">
         </activity>
         <activity
-            android:name="com.google.samples.quickstart.signin.IdTokenActivity"
+            android:name="com.google.samples.quickstart.signin2.IdTokenActivity"
             android:label="@string/name_id_token_activity"
             android:theme="@style/ThemeOverlay.MyNoTitleActivity">
         </activity>
 
         <activity
-            android:name="com.google.samples.quickstart.signin.ServerAuthCodeActivity"
+            android:name="com.google.samples.quickstart.signin2.ServerAuthCodeActivity"
             android:label="@string/name_auth_code_activity"
             android:theme="@style/ThemeOverlay.MyNoTitleActivity">
         </activity>
 
         <activity
-            android:name="com.google.samples.quickstart.signin.RestApiActivity"
+            android:name="com.google.samples.quickstart.signin2.RestApiActivity"
             android:label="@string/name_rest_activity"
             android:theme="@style/ThemeOverlay.MyNoTitleActivity">
         </activity>

@@ -1,4 +1,4 @@
-package com.google.samples.quickstart.signin;
+package com.google.samples.quickstart.signin2;
 
 import android.content.Context;
 import android.content.Intent;
