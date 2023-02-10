@@ -1,4 +1,4 @@
-package com.google.samples.quickstart.signin2;
+package com.google.samples.quickstart.signin;
 
 import android.accounts.Account;
 import android.app.ProgressDialog;
