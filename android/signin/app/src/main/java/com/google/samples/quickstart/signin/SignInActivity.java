@@ -81,6 +81,8 @@ public class SignInActivity extends AppCompatActivity implements
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        Log.w(TAG, "onActivityResult requestCode = " + requestCode);
+        Log.w(TAG, "onActivityResult resultCode = " + resultCode);
 
         // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
         if (requestCode == RC_SIGN_IN) {
